@@ -12,7 +12,7 @@ header { width: 100%; margin: auto; border-bottom: #3c7a48 1px solid }
 .quotes p { text-shadow: #246640 1px 1px 1px; color: #fff; width: 330px; line-height: 26px; }
 .text5 { position: absolute; left: 0px; top: 160px; font-family: "微软雅黑"; font-size: 30px; color: #FFF; -webkit-box-reflect: below -3px -webkit-gradient(linear, 0 0, 0 100%, from(transparent), to(white)); }/* below文字倒影方向向下，距离3px 颜色渐变由上往下 */
 .flower { position: absolute; right: 0; top: 60px; background: url(../images/flower.png) no-repeat; width: 173px; height: 175px; z-index: 2 }
-.flower img { margin: 22px 0 0 17px; display: block; }
+.flower img { margin: 22px 0 0 17px; display: block; width: 172px;height: 173px;}
 /* nav */
 #nav { width: 100%; line-height: 50px; height: 50px; font-family: "微软雅黑"; font-size: 16px; background: rgba(56,134,72,.8); text-align: center; position: relative; border-bottom: #559765 1px solid }
 #nav ul { width: 1000px; margin: auto; background: url(../images/heart.png) left no-repeat; overflow: hidden }
