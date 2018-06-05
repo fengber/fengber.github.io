@@ -17,10 +17,10 @@ header { width: 100%; margin: auto; border-bottom: #3c7a48 1px solid }
 #nav { width: 100%; line-height: 50px; height: 50px; font-family: "Î¢ÈíÑÅºÚ"; font-size: 16px; background: rgba(56,134,72,.8); text-align: center; position: relative; border-bottom: #559765 1px solid }
 #nav ul { width: 1000px; margin: auto; background: url(../images/heart.png) left no-repeat; overflow: hidden }
 #nav ul li { display: inline; margin: 0 12px; text-align: center; }
-#nav ul li a { color: #fff; }
+#nav ul li a { color: red; }
 /* photowall */
 .photowall { width: 100%; background: pink; padding: 30px 0; overflow: hidden; border-bottom: #226039 1px solid }
-.photowall img { display: block; opacity: 0.9; -webkit-transition: opacity 0.35s; transition: opacity 0.35s; }
+.photowall img { display: block; opacity: 0.9; -webkit-transition: opacity 0.35s; transition: opacity 0.35s; width: 297px;height: 158px;}
 .wall_a { width: 1000px; margin: auto; background: #fafcfa; overflow: hidden }
 .wall_a li { float: left; position: relative; }
 .wall_a li p a { color: #686868 }
@@ -92,7 +92,7 @@ background-color:#FFFFFF;
 .about_girl span img, .about_boy span img { width: 130px; height: 130px; border-radius: 100% }
 .about_girl, .about_boy { width: 100%; margin:10px auto 0; overflow: hidden }
 .about_girl span { float: left; margin-right: 30px }
-.about_girl p { margin: 20px; background: #559664; color: #FFF; float: left; padding: 20px; width: 46%; border-radius: 6px; position: relative; box-shadow: inset #226039 -1px -1px 1px; text-shadow: #226039 1px 1px 0px }
+.about_girl p { margin: 20px; background: yellow; color: pink; float: left; padding: 20px; width: 46%; border-radius: 6px; position: relative; box-shadow: inset #226039 -1px -1px 1px; text-shadow: #226039 1px 1px 0px }
 .about_girl p::before { content: ""; width: 0px; height: 0px; border-style: solid; border-width: 20px 20px 20px 0; border-color: transparent #559664 transparent; position: absolute; left: -20px; top: 24px; }/* Èý½ÇÐÎ */
 .about_boy span { float: right; margin-left: 30px }
 .about_boy p { margin: 20px; background: #ececec; color: #444; float: right; padding: 20px; width: 46%; border-radius: 6px; position: relative; box-shadow: inset #999 1px -1px 1px; text-shadow: #fff 1px 1px 0px }
@@ -100,7 +100,7 @@ background-color:#FFFFFF;
 /* blog */
 .blog{ width:1000px; margin: 30px auto; overflow:hidden}
 .blog figure{ background:pink; border:pink 10px solid; width:300px; height:430px; float:left;margin: 0 5px;}
-.blog figure img{ display:block; margin: 0 auto 20px}
+.blog figure img{ display:block; margin: 0 auto 20px width:300px;height: 256px;}
 .blog figure p{ font-size:14px;  text-shadow: #fff 1px 1px 0px; line-height:26px; text-align:center; font-weight:bold}
 .blog figure p a{color:#226039;}
 .blog figure figcaption{ padding:10px; line-height:22px; color:#666}
