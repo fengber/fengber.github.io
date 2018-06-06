@@ -102,7 +102,7 @@ background-color:#F5DEB3;
 .blog figure{ background:pink; border:pink 10px solid; width:300px; height:430px; float:left;margin: 0 5px;}
 .blog figure img{ display:block; margin: 0 auto 20px width:300px;height: 256px;}
 .blog figure p{ font-size:14px;  text-shadow: black 1px 1px 0px; line-height:26px; text-align:center; font-weight:bold}
-.blog figure p a{color:#226039;}
+.blog figure p a{color:#C71585;}
 .blog figure figcaption{ padding:10px; line-height:22px; color:cyan}
 /* hope */
 .text6 {font-family: "Î¢ÈíÑÅºÚ"; font-size: 30px; color: black; -webkit-box-reflect: below 1px -webkit-gradient(linear, 0 0, 0 100%, from(transparent), to(white)); width:1000px; margin:auto  }
@@ -113,12 +113,12 @@ background-color:#F5DEB3;
 .visitors dt { float: left; }
 .visitors dt img { width: 100px; height: 100px; margin-right: 20px; border-radius:100% }
 .visitors dd { line-height: 22px; }
-.visitors dd a{ color:#00FFFF; font-size:14px; font-weight:bold}
+.visitors dd a{ color:#C71585; font-size:14px; font-weight:bold}
 .visitors dt+dd{ margin-top:20px}
 /*footer*/
-footer{ background:#032e13; height:56px; line-height:56px;}
-footer p{ width:1000px; margin:auto; text-align:right;color:#7B68EE}
-footer p a{color:#7B68EE}
+footer{ background:#C71585; height:56px; line-height:56px;}
+footer p{ width:1000px; margin:auto; text-align:right;color:#C71585}
+footer p a{color:#C71585}
 footer p a:hover{ text-decoration:underline}
 /*topnav*/
 .topnav{ line-height:50px; height:50px; color:#000; text-align:center; background:black; position:fixed; width:100%; top:0; z-index:999; box-shadow:#333 0px 2px 2px}
