@@ -14,7 +14,7 @@ header { width: 100%; margin: auto; border-bottom: #3c7a48 1px solid }
 .flower { position: absolute; right: 0; top: 60px; background: url(../images/flower.png) no-repeat; width: 173px; height: 175px; z-index: 2 }
 .flower img { margin: 22px 0 0 17px; display: block; width: 172px;height: 173px;}
 /* nav */
-#nav { width: 100%; line-height: 50px; height: 50px; font-family: "Î¢ÈíÑÅºÚ"; font-size: 16px; background: rgba(56,134,72,.8); text-align: center; position: relative; border-bottom: #559765 1px solid }
+#nav { width: 100%; line-height: 50px; height: 50px; font-family: "Î¢ÈíÑÅºÚ"; font-size: 16px; background: rgba(56,0,72,.8); text-align: center; position: relative; border-bottom: #559765 1px solid }
 #nav ul { width: 1000px; margin: auto; background: url(../images/heart.png) left no-repeat; overflow: hidden }
 #nav ul li { display: inline; margin: 0 12px; text-align: center; }
 #nav ul li a { color: red; }
@@ -43,11 +43,11 @@ header { width: 100%; margin: auto; border-bottom: #3c7a48 1px solid }
 #fountainG li:nth-child(8) { left: 210px; -moz-animation-delay: 1.32s; -webkit-animation-delay: 1.32s; -ms-animation-delay: 1.32s; -o-animation-delay: 1.32s; animation-delay: 1.32s; }
  @-moz-keyframes bounce_fountainG { 0% {
 -moz-transform:scale(1);
-background-color:#238d7b;
+background-color:#FFFACD;
 }
  100% {
 -moz-transform:scale(.3);
-background-color:#FFFFFF;
+background-color:#FF69B4;
 }
 }
  @-webkit-keyframes bounce_fountainG { 0% {
@@ -56,7 +56,7 @@ background-color:#238d7b;
 }
  100% {
 -webkit-transform:scale(.3);
-background-color:#FFFFFF;
+background-color:#FF69B4;
 }
 }
  @-ms-keyframes bounce_fountainG { 0% {
@@ -65,29 +65,29 @@ background-color:#238d7b;
 }
  100% {
 -ms-transform:scale(.3);
-background-color:#FFFFFF;
+background-color:#FF69B4;
 }
 }
  @-o-keyframes bounce_fountainG { 0% {
 -o-transform:scale(1);
-background-color:#238d7b;
+background-color:#B22222;
 }
  100% {
 -o-transform:scale(.3);
-background-color:#FFFFFF;
+background-color:#FF69B4;
 }
 }
  @keyframes bounce_fountainG { 0% {
 transform:scale(1);
-background-color:#238d7b;
+background-color:#FF8C00;
 }
  100% {
 transform:scale(.3);
-background-color:#FFFFFF;
+background-color:#F5DEB3;
 }
 }
 /* about */
-.about { width: 100%; background: #fff; padding: 20px 0; overflow: hidden }
+.about { width: 100%; background: #F0FFF0; padding: 20px 0; overflow: hidden }
 .about ul { width: 1000px; margin: auto; line-height: 24px }
 .about_girl span img, .about_boy span img { width: 130px; height: 130px; border-radius: 100% }
 .about_girl, .about_boy { width: 100%; margin:10px auto 0; overflow: hidden }
@@ -101,25 +101,25 @@ background-color:#FFFFFF;
 .blog{ width:1000px; margin: 30px auto; overflow:hidden}
 .blog figure{ background:pink; border:pink 10px solid; width:300px; height:430px; float:left;margin: 0 5px;}
 .blog figure img{ display:block; margin: 0 auto 20px width:300px;height: 256px;}
-.blog figure p{ font-size:14px;  text-shadow: #fff 1px 1px 0px; line-height:26px; text-align:center; font-weight:bold}
+.blog figure p{ font-size:14px;  text-shadow: black 1px 1px 0px; line-height:26px; text-align:center; font-weight:bold}
 .blog figure p a{color:#226039;}
-.blog figure figcaption{ padding:10px; line-height:22px; color:#666}
+.blog figure figcaption{ padding:10px; line-height:22px; color:cyan}
 /* hope */
-.text6 {font-family: "Î¢ÈíÑÅºÚ"; font-size: 30px; color: #FFF; -webkit-box-reflect: below 1px -webkit-gradient(linear, 0 0, 0 100%, from(transparent), to(white)); width:1000px; margin:auto  }
-.hope{ border-top:50px #559664 solid; padding:20px; color:pink;}
+.text6 {font-family: "Î¢ÈíÑÅºÚ"; font-size: 30px; color: black; -webkit-box-reflect: below 1px -webkit-gradient(linear, 0 0, 0 100%, from(transparent), to(white)); width:1000px; margin:auto  }
+.hope{ border-top:50px black solid; padding:20px; color:pink;}
 .hope ul{ width:1000px; margin:auto;background: url(../images/love.png) no-repeat left center; overflow:hidden}
 .visitors{ width:500px; float:right}
 .visitors dl { display: block; overflow: hidden; margin-bottom: 12px }
 .visitors dt { float: left; }
 .visitors dt img { width: 100px; height: 100px; margin-right: 20px; border-radius:100% }
 .visitors dd { line-height: 22px; }
-.visitors dd a{ color:#d2ec40; font-size:14px; font-weight:bold}
+.visitors dd a{ color:#00FFFF; font-size:14px; font-weight:bold}
 .visitors dt+dd{ margin-top:20px}
 /*footer*/
 footer{ background:#032e13; height:56px; line-height:56px;}
-footer p{ width:1000px; margin:auto; text-align:right;color:#559664 }
-footer p a{color:#559664}
+footer p{ width:1000px; margin:auto; text-align:right;color:#7B68EE}
+footer p a{color:#7B68EE}
 footer p a:hover{ text-decoration:underline}
 /*topnav*/
-.topnav{ line-height:50px; height:50px; color:#000; text-align:center; background:#FFF; position:fixed; width:100%; top:0; z-index:999; box-shadow:#333 0px 2px 2px}
+.topnav{ line-height:50px; height:50px; color:#000; text-align:center; background:black; position:fixed; width:100%; top:0; z-index:999; box-shadow:#333 0px 2px 2px}
 .topnav a{ color:#000; font-weight:bold; margin:0 5px}
